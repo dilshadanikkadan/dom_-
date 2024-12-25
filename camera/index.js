@@ -5,6 +5,8 @@ const filter_group = document.querySelector(".filter");
 
 const canvas = document.createElement("canvas");
 
+
+
 let capturedPhoto;
 window.onload = function (e) {
   navigator.mediaDevices.getUserMedia({ video: true }).then((stream) => {
