@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.one{
+    height: 90vh;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.two{
+    height: 90vh;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.three{
+    height: 90vh;
+    width: 100%;
+    background-color: orchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.one-btn,.two-btn,.three-btn{
+    padding: 15px 25px ;
+    border: none;
+    border-radius: 20px;
+    background: yellow;
+}
+.container{
+    height: 300px;
+    width: 60%;
+    padding: 20px;
+    background: yellow;
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
+.container-hidden{
+    opacity: 0;
+    transform: translateY(80px);
+}

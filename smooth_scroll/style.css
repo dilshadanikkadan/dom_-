@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.one{
+    height: 90vh;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two{
+    height: 90vh;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three{
+    height: 90vh;
+    width: 100%;
+    background-color: orchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one-btn,.two-btn,.three-btn{
+    padding: 15px 25px ;
+    border: none;
+    border-radius: 20px;
+    background: yellow;
+}

@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.inputGroup {
+  width: 50vw;
+  height: 200px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.inputGroup input{
+    width: 80px;
+    height: 80px;
+    padding-left: 3px;
+    color: black;
+    font-size: 30px;
+}
+
+.submit-btn{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+}
